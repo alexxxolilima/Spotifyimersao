@@ -1,0 +1,116 @@
+/* header */
+
+.main-container {
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navigation .navigation .arrow-left {
+    margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header__search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header__search input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0 12px;
+    color: #fff;
+    text-overflow: ellipsis; /*Serve pra delimitar a qtd/tamanho do texto dentro do input (utiliza os ...)*/
+    overflow: hidden;
+    white-space: nowrap; /*Previne a quebra de texto*/
+    outline: none; /*Remove a 'borda' quando o campo está ativo*/
+}
+
+.header__login .subscribe {
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+}
+
+.header__login .login {
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.playlist-container {
+    height:50%;
+    background-color: var(--bg-containers);
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.playlist-container .playlist-container__header {
+    padding: 30px 24px;
+}
+
+.playlist-container .playlist-container__header .text {
+    display: flex;
+    color: #fff;
+    margin-bottom: 48px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.playlist-container .playlist-container__header .subtitle {
+    font-size: 2rem;
+    font-size: 24px;
+    font-weight: 00;
+}

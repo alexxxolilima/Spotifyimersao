@@ -1,0 +1,199 @@
+body {
+    background-color: #000;
+    font-family: var(--font-dm-sans);
+}
+
+h1 {
+    color: #fff;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+    
+}
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    /*padding: 16px 0 0 16px; eu que comentei*/
+}
+.sidebar__navigation .logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+/* .logo img = elemento imagem dentro do elemento logo */
+/* .logo, img = aplica ao elemento logo E ao elemento img*/
+.logo img {
+    width: 80px;
+}
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+.sidebar nav ul li {
+    padding: 10px 0;
+}
+.sidebar nav ul a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+
+}
+
+.sidebar nav ul a .fa {
+    font-size: 20px;
+}
+
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.library .library__content {
+    display: flex;
+    justify-content: space-between;
+}
+.library .library__button {
+    display: flex;
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent; /*Elimina o fundo padrão dos botões */
+    border: 0px;
+    font-size: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    align-items: center;
+}
+.library .library__button .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+.library .library__content .fa-plus {
+    margin: 24px 10px;
+}
+.section-playlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+.section-playlist .section-playlist__content {
+    display: flex;
+    flex-direction: column;
+}
+.section-playlist__content .text {
+    padding-bottom: 14px;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+
+.section-playlist__content .title {
+    font-weight: 700;
+}
+.section-playlist__content .subtitle {
+    font-weight: 500;
+    font-size: 12px;
+}
+.section-playlist__content .section-playlist__button {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0;
+    width: 113px;
+}
+.sidebar .cookies {
+    margin: 15px 20px;
+}
+.sidebar .cookies a {
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+}
+.sidebar .cookies a:hover {
+    text-decoration: underline;
+}
+.sidebar .languages__button {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #878787;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+.footer-premium {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, #c4a, #529af4);
+    width: 100%;
+    height: 80px;
+}
+.footer-premium__content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 30px;
+}
+.footer-premium .footer-premium__button {
+    margin: 10px 20px;
+    border-radius: 60px;
+    border: 0;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 3px 30px;
+}
+.footer-premium  .footer-premium__content .text{
+    padding-top: 8px;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer-premium .footer-premium__content .title {
+    font-weight: bold;
+}
